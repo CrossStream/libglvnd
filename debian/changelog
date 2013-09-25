@@ -1,0 +1,5 @@
+libglvnd (0.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)
+
+ -- Timo Aaltonen <tjaalton@ubuntu.com>  Thu, 29 Aug 2013 10:59:47 +0300
