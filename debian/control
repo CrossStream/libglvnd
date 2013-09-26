@@ -10,7 +10,6 @@ Build-Depends:
  xserver-xorg-dev,
  python-dev,
  python-libxml2,
- libatomic-ops-dev,
 Standards-Version: 3.9.4
 Section: libs
 Homepage: <insert the upstream URL, if relevant>
