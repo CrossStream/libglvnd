@@ -4,6 +4,7 @@
 #export DH_VERBOSE=1
 
 override_dh_install:
+	find debian/tmp -name '*.la' -delete
 	dh_install --fail-missing
 
 %:
