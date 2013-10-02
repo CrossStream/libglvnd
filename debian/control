@@ -12,16 +12,19 @@ Build-Depends:
  python-libxml2,
 Standards-Version: 3.9.4
 Section: libs
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/NVIDIA/libglvnd
 Vcs-Git: git://git.debian.org/pkg-xorg/lib/libglvnd.git
 Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libglvnd.git;a=summary
 
 Package: libglvnd-dev
 Section: libdevel
 Architecture: any
-Depends: libglvnd0 (= ${binary:Version})
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${misc:Depends}, libglvnd0 (= ${binary:Version})
+Description: Vendor neutral GL dispatch library -- development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the development files.
 
 Package: libglvnd0
 Section: libs
@@ -29,7 +32,6 @@ Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: <insert up to 60 chars description>
+Description: Vendor neutral GL dispatch library
  This is an implementation of the vendor-neutral dispatch layer for
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
-
