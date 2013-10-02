@@ -16,22 +16,140 @@ Homepage: https://github.com/NVIDIA/libglvnd
 Vcs-Git: git://git.debian.org/pkg-xorg/lib/libglvnd.git
 Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libglvnd.git;a=summary
 
-Package: libglvnd-dev
+Package: libgl-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, libglvnd0 (= ${binary:Version})
-Description: Vendor neutral GL dispatch library -- development files
+Depends: ${misc:Depends},
+ libgl0 (= ${binary:Version}),
+Description: Vendor neutral GL dispatch library -- libGL development files
  This is an implementation of the vendor-neutral dispatch layer for
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
  .
- This package contains the development files.
+ This package contains the development files for libGL.
 
-Package: libglvnd0
+Package: libgl0
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Vendor neutral GL dispatch library
+Description: Vendor neutral GL dispatch library -- libGL
  This is an implementation of the vendor-neutral dispatch layer for
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the libGL shared library.
+
+Package: libglx-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends},
+ libglx0 (= ${binary:Version}),
+Description: Vendor neutral GL dispatch library -- libGLX development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the development files for libGLX.
+
+Package: libglx0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- libGLX
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the libGLX shared library.
+
+Package: libglx-dummy-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends},
+ libglx-dummy0 (= ${binary:Version}),
+Description: Vendor neutral GL dispatch library -- libGLX-dummy development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the development files for libGLX-dummy.
+
+Package: libglx-dummy0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- libGLX-dummy
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the libGLX-dummy shared library.
+
+Package: libgldispatch-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends},
+ libgldispatch0 (= ${binary:Version}),
+Description: Vendor neutral GL dispatch library -- libGLdispatch development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the development files for libGLdispatch.
+
+Package: libgldispatch0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- libGLdispatch
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the libGLdispatch shared library.
+
+Package: libopengl-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends},
+ libopengl0 (= ${binary:Version}),
+Description: Vendor neutral GL dispatch library -- libOpenGL development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the development files for libOpenGL.
+
+Package: libopengl0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- libOpenGL
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the libOpenGL shared library.
+
+Package: libx11glvnd-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends},
+ libx11glvnd0 (= ${binary:Version}),
+Description: Vendor neutral GL dispatch library -- libx11glvnd development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the development files for libx11glvnd.
+
+Package: libx11glvnd0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- libx11glvnd
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the libx11glvnd shared library.
