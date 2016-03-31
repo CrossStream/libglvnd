@@ -1,4 +1,4 @@
-libglvnd (0.0.0-1) unstable; urgency=low
+libglvnd (0.1.0~git20160330-1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #nnnn)
 
