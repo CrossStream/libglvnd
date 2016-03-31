@@ -7,5 +7,8 @@ override_dh_install:
 	find debian/tmp -name '*.la' -delete
 	dh_install --fail-missing
 
+# needs X
+override_dh_auto_test:
+
 %:
 	dh $@ --parallel --with autoreconf,xsf --builddirectory=build/
