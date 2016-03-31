@@ -62,29 +62,6 @@ Description: Vendor neutral GL dispatch library -- libGLX
  .
  This package contains the libGLX shared library.
 
-Package: libglx-dummy-dev
-Section: libdevel
-Architecture: any
-Depends: ${misc:Depends},
- libglx-dummy0 (= ${binary:Version}),
-Description: Vendor neutral GL dispatch library -- libGLX-dummy development files
- This is an implementation of the vendor-neutral dispatch layer for
- arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
- .
- This package contains the development files for libGLX-dummy.
-
-Package: libglx-dummy0
-Section: libs
-Architecture: any
-Pre-Depends: ${misc:Pre-Depends},
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Multi-Arch: same
-Description: Vendor neutral GL dispatch library -- libGLX-dummy
- This is an implementation of the vendor-neutral dispatch layer for
- arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
- .
- This package contains the libGLX-dummy shared library.
-
 Package: libgldispatch-dev
 Section: libdevel
 Architecture: any
@@ -130,26 +107,3 @@ Description: Vendor neutral GL dispatch library -- libOpenGL
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
  .
  This package contains the libOpenGL shared library.
-
-Package: libx11glvnd-dev
-Section: libdevel
-Architecture: any
-Depends: ${misc:Depends},
- libx11glvnd0 (= ${binary:Version}),
-Description: Vendor neutral GL dispatch library -- libx11glvnd development files
- This is an implementation of the vendor-neutral dispatch layer for
- arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
- .
- This package contains the development files for libx11glvnd.
-
-Package: libx11glvnd0
-Section: libs
-Architecture: any
-Pre-Depends: ${misc:Pre-Depends},
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Multi-Arch: same
-Description: Vendor neutral GL dispatch library -- libx11glvnd
- This is an implementation of the vendor-neutral dispatch layer for
- arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
- .
- This package contains the libx11glvnd shared library.
