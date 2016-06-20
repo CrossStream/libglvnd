@@ -9,6 +9,7 @@ Build-Depends:
  libxext-dev,
  python-dev,
  python-libxml2,
+ x11proto-gl-dev,
 Standards-Version: 3.9.4
 Section: libs
 Homepage: https://github.com/NVIDIA/libglvnd
