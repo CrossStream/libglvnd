@@ -10,7 +10,7 @@ Build-Depends:
  python-dev,
  python-libxml2,
  x11proto-gl-dev,
-Standards-Version: 3.9.4
+Standards-Version: 3.9.7
 Section: libs
 Homepage: https://github.com/NVIDIA/libglvnd
 Vcs-Git: git://git.debian.org/pkg-xorg/lib/libglvnd.git
