@@ -11,4 +11,4 @@ override_dh_install:
 override_dh_auto_test:
 
 %:
-	dh $@ --parallel --with autoreconf,xsf --builddirectory=build/
+	dh $@ --parallel --with autoreconf --builddirectory=build/

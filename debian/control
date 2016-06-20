@@ -7,7 +7,6 @@ Build-Depends:
  pkg-config,
  libx11-dev,
  libxext-dev,
- xserver-xorg-dev,
  python-dev,
  python-libxml2,
 Standards-Version: 3.9.4
