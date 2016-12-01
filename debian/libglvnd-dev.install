@@ -1,0 +1,3 @@
+usr/include/glvnd
+usr/lib/*/*.so
+usr/lib/*/pkgconfig
