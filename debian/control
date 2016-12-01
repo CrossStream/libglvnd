@@ -2,8 +2,7 @@ Source: libglvnd
 Priority: extra
 Maintainer: Timo Aaltonen <tjaalton@ubuntu.com>
 Build-Depends:
- debhelper (>= 9),
- dh-autoreconf,
+ debhelper (>= 10),
  pkg-config,
  libx11-dev,
  libxext-dev,
