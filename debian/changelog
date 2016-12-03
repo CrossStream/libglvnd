@@ -1,5 +1,5 @@
-libglvnd (0.2.999+git20161203-1) UNRELEASED; urgency=low
+libglvnd (0.2.999+git20161203-1) experimental; urgency=low
 
   * Initial release (Closes: #812530)
 
- -- Timo Aaltonen <tjaalton@ubuntu.com>  Thu, 29 Aug 2013 10:59:47 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Sat, 03 Dec 2016 02:09:57 +0200

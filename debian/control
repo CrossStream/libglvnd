@@ -1,6 +1,7 @@
 Source: libglvnd
 Priority: extra
-Maintainer: Timo Aaltonen <tjaalton@ubuntu.com>
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Timo Aaltonen <tjaalton@debian.org>
 Build-Depends:
  debhelper (>= 10),
  pkg-config,
