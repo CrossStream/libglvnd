@@ -12,6 +12,9 @@ override_dh_install:
 # needs X
 override_dh_auto_test:
 
+override_dh_makeshlibs:
+	dh_makeshlibs -a -- -c4
+
 %:
 	dh $@ --builddirectory=build/
 
