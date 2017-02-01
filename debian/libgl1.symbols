@@ -1,4 +1,4 @@
-libGL.so.1 libglvnd-glx0 #MINVER#
+libGL.so.1 libgl1 #MINVER#
  glAccum@Base 0
  glAccumxOES@Base 0
  glActiveProgramEXT@Base 0
@@ -3329,7 +3329,7 @@ libGL.so.1 libglvnd-glx0 #MINVER#
  glXWaitGL@Base 0
  glXWaitVideoSyncSGI@Base 0
  glXWaitX@Base 0
-libGLX.so.0 libglvnd-glx0 #MINVER#
+libGLX.so.0 libgl1 #MINVER#
  __glXGLLoadGLXFunction@Base 0
  glXChooseFBConfig@Base 0
  glXChooseVisual@Base 0

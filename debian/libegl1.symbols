@@ -1,4 +1,4 @@
-libEGL.so.1 libglvnd-egl1 #MINVER#
+libEGL.so.1 libegl1 #MINVER#
  eglBindAPI@Base 0
  eglBindTexImage@Base 0
  eglChooseConfig@Base 0
