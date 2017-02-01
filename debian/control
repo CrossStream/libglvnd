@@ -67,6 +67,7 @@ Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
 Depends:
  libegl1-mesa,
+ libglvnd0 (= ${binary:Version}),
  ${shlibs:Depends},
  ${misc:Depends},
 Multi-Arch: same
@@ -84,6 +85,7 @@ Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
 Depends:
  libgles2-mesa,
+ libglvnd0 (= ${binary:Version}),
  ${shlibs:Depends},
  ${misc:Depends},
 Multi-Arch: same
@@ -98,6 +100,7 @@ Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
 Depends:
+ libglvnd0 (= ${binary:Version}),
  libgl1-mesa-glx,
  ${shlibs:Depends},
  ${misc:Depends}
@@ -115,6 +118,7 @@ Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
 Depends:
+ libglvnd0 (= ${binary:Version}),
  ${shlibs:Depends},
  ${misc:Depends}
 Multi-Arch: same
