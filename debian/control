@@ -70,9 +70,10 @@ Depends:
  libglvnd0 (= ${binary:Version}),
  ${shlibs:Depends},
  ${misc:Depends},
-Provides: libegl1-x11
-Conflicts: libegl1-x11
+Provides: libegl1, libegl1-x11
+Conflicts: libegl1, libegl1-x11
 Replaces:
+ libegl1,
  libegl1-x11,
  libglvnd0 (<< 0.2.999+git20170201-1)
 Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
