@@ -2,6 +2,7 @@ libglvnd (0.2.999+git20170201-1) UNRELEASED; urgency=medium
 
   * New upstream snapshot.
   * Add symbols file.
+  * Split packaging so that Mesa can be bootstrapped to use this.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Thu, 08 Dec 2016 13:44:48 +0200
 

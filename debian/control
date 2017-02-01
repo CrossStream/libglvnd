@@ -21,11 +21,29 @@ Section: libdevel
 Architecture: any
 Depends: ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
+ libglvnd-core-dev (= ${binary:Version}),
+ libglvnd-egl0 (= ${binary:Version}),
+ libglvnd-glx0 (= ${binary:Version}),
+ libglvnd-gles0 (= ${binary:Version}),
+ libglvnd-opengl0 (= ${binary:Version}),
 Description: Vendor neutral GL dispatch library -- development files
  This is an implementation of the vendor-neutral dispatch layer for
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
  .
  This package contains the development files for libglvnd.
+
+Package: libglvnd-core-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends},
+Breaks: libglvnd-dev (<< 0.2.999+git20170201-1)
+Replaces: libglvnd-dev (<< 0.2.999+git20170201-1)
+Description: Vendor neutral GL dispatch library -- core development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains the header files for libglvnd split in a separate
+ package for Mesa.
 
 Package: libglvnd0
 Section: libs
@@ -37,4 +55,58 @@ Description: Vendor neutral GL dispatch library
  This is an implementation of the vendor-neutral dispatch layer for
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
  .
- This package contains the shared libraries for libglvnd.
+ This package contains the GL dispatch library.
+
+Package: libglvnd-egl0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
+Replaces: libglvnd0 (<< 0.2.999+git20170201-1)
+Description: Vendor neutral GL dispatch library -- EGL support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for EGL.
+
+Package: libglvnd-gles0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- GLES support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for GLES.
+
+Package: libglvnd-glx0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
+Replaces: libglvnd0 (<< 0.2.999+git20170201-1)
+Description: Vendor neutral GL dispatch library -- GLX support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for GLX.
+
+Package: libglvnd-opengl0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
+Replaces: libglvnd0 (<< 0.2.999+git20170201-1)
+Description: Vendor neutral GL dispatch library -- OpenGL support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for OpenGL.
