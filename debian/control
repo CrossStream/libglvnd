@@ -22,9 +22,9 @@ Architecture: any
 Depends: ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
  libglvnd-core-dev (= ${binary:Version}),
- libglvnd-egl0 (= ${binary:Version}),
+ libglvnd-egl1 (= ${binary:Version}),
  libglvnd-glx0 (= ${binary:Version}),
- libglvnd-gles0 (= ${binary:Version}),
+ libglvnd-gles2 (= ${binary:Version}),
  libglvnd-opengl0 (= ${binary:Version}),
 Description: Vendor neutral GL dispatch library -- development files
  This is an implementation of the vendor-neutral dispatch layer for
@@ -57,7 +57,7 @@ Description: Vendor neutral GL dispatch library
  .
  This package contains the GL dispatch library.
 
-Package: libglvnd-egl0
+Package: libglvnd-egl1
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
@@ -71,7 +71,7 @@ Description: Vendor neutral GL dispatch library -- EGL support
  .
  This package contains support for EGL.
 
-Package: libglvnd-gles0
+Package: libglvnd-gles2
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},

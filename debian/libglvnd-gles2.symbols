@@ -1,4 +1,4 @@
-libGLESv1_CM.so.1 libglvnd-gles0 #MINVER#
+libGLESv1_CM.so.1 libglvnd-gles2 #MINVER#
  glActiveTexture@Base 0
  glAlphaFunc@Base 0
  glAlphaFuncx@Base 0
@@ -144,7 +144,7 @@ libGLESv1_CM.so.1 libglvnd-gles0 #MINVER#
  glTranslatex@Base 0
  glVertexPointer@Base 0
  glViewport@Base 0
-libGLESv2.so.2 libglvnd-gles0 #MINVER#
+libGLESv2.so.2 libglvnd-gles2 #MINVER#
  glActiveTexture@Base 0
  glAttachShader@Base 0
  glBeginQuery@Base 0
