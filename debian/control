@@ -19,13 +19,14 @@ Vcs-Browser: https://anonscm.debian.org/git/pkg-xorg/lib/libglvnd.git
 Package: libglvnd-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends},
+Depends:
  libglvnd0 (= ${binary:Version}),
  libglvnd-core-dev (= ${binary:Version}),
  libglvnd-egl1 (= ${binary:Version}),
  libglvnd-glx0 (= ${binary:Version}),
  libglvnd-gles2 (= ${binary:Version}),
  libglvnd-opengl0 (= ${binary:Version}),
+ ${misc:Depends},
 Description: Vendor neutral GL dispatch library -- development files
  This is an implementation of the vendor-neutral dispatch layer for
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
@@ -35,7 +36,8 @@ Description: Vendor neutral GL dispatch library -- development files
 Package: libglvnd-core-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends},
+Depends:
+ ${misc:Depends},
 Breaks: libglvnd-dev (<< 0.2.999+git20170201-1)
 Replaces: libglvnd-dev (<< 0.2.999+git20170201-1)
 Description: Vendor neutral GL dispatch library -- core development files
@@ -49,7 +51,9 @@ Package: libglvnd0
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library
  This is an implementation of the vendor-neutral dispatch layer for
@@ -61,7 +65,10 @@ Package: libglvnd-egl1
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ libegl1-mesa,
+ ${shlibs:Depends},
+ ${misc:Depends},
 Multi-Arch: same
 Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
 Replaces: libglvnd0 (<< 0.2.999+git20170201-1)
@@ -75,7 +82,10 @@ Package: libglvnd-gles2
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ libgles2-mesa,
+ ${shlibs:Depends},
+ ${misc:Depends},
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GLES support
  This is an implementation of the vendor-neutral dispatch layer for
@@ -87,7 +97,10 @@ Package: libglvnd-glx0
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ libgl1-mesa-glx,
+ ${shlibs:Depends},
+ ${misc:Depends}
 Multi-Arch: same
 Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
 Replaces: libglvnd0 (<< 0.2.999+git20170201-1)
@@ -101,7 +114,9 @@ Package: libglvnd-opengl0
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
 Multi-Arch: same
 Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
 Replaces: libglvnd0 (<< 0.2.999+git20170201-1)
