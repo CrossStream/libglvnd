@@ -109,7 +109,7 @@ Description: Vendor neutral GL dispatch library -- GLX support
  This is an implementation of the vendor-neutral dispatch layer for
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
  .
- This package contains support for GLX.
+ This package contains support for GLX and old libGL for compatibility reasons.
 
 Package: libopengl0
 Section: libs
