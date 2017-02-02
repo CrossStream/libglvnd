@@ -6,7 +6,7 @@ Files: *
 Copyright: 2013 NVIDIA Corporation
 License: MIT
 
-Files: src/util/uthash
+Files: src/util/uthash/*
 Copyright: 2005-2013 Troy D. Hanson
 License: BSD
 
