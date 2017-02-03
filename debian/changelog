@@ -1,4 +1,4 @@
-libglvnd (0.2.999+git20170201-1) UNRELEASED; urgency=medium
+libglvnd (0.2.999+git20170201-1) experimental; urgency=medium
 
   [ Timo Aaltonen ]
   * New upstream snapshot.
@@ -8,7 +8,7 @@ libglvnd (0.2.999+git20170201-1) UNRELEASED; urgency=medium
   [ Andreas Boll ]
   * copyright: Add missing wildcard.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Thu, 08 Dec 2016 13:44:48 +0200
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 03 Feb 2017 10:47:42 +0200
 
 libglvnd (0.2.999+git20161203-1) experimental; urgency=low
 
