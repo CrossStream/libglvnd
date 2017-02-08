@@ -69,10 +69,7 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  libegl-mesa0 | libegl-vendor,
-Provides: libegl1-x11
-Conflicts: libegl1-x11
 Replaces:
- libegl1-x11,
  libglvnd0 (<< 0.2.999+git20170201-1)
 Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
 Multi-Arch: same

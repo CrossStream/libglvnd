@@ -1,6 +1,7 @@
 libglvnd (0.2.999+git20170201-2) UNRELEASED; urgency=medium
 
   * control: Add depends on default libegl/libglx vendor.
+  * control: Drop useless P/R/C: libegl1-x11 from libegl1.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Tue, 07 Feb 2017 16:58:44 +0200
 
