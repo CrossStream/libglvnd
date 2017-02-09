@@ -25,6 +25,7 @@ Depends:
  libegl1 (= ${binary:Version}),
  libgles2 (= ${binary:Version}),
  libgl1 (= ${binary:Version}),
+ libglx0 (= ${binary:Version}),
  libopengl0 (= ${binary:Version}),
  ${misc:Depends},
 Description: Vendor neutral GL dispatch library -- development files
@@ -107,6 +108,27 @@ Pre-Depends: ${misc:Pre-Depends},
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
+ libglx0 (= ${binary:Version}),
+Replaces:
+# libgl1-mesa-glx (<< 17.0.0~rc3-2),
+ libglvnd0 (<< 0.2.999+git20170201-1)
+Breaks:
+# libgl1-mesa-glx (<< 17.0.0~rc3-2),
+ libglvnd0 (<< 0.2.999+git20170201-1)
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- legacy GL support
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package contains support for old libGL for compatibility reasons.
+
+Package: libglx0
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends},
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
  libglx-mesa0 | libglx-vendor,
 Replaces:
 # libgl1-mesa-glx (<< 17.0.0~rc3-2),
@@ -119,7 +141,7 @@ Description: Vendor neutral GL dispatch library -- GLX support
  This is an implementation of the vendor-neutral dispatch layer for
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
  .
- This package contains support for GLX and old libGL for compatibility reasons.
+ This package contains support for GLX.
 
 Package: libopengl0
 Section: libs
