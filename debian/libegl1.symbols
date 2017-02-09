@@ -45,4 +45,3 @@ libEGL.so.1 libegl1 #MINVER#
  eglWaitGL@Base 0
  eglWaitNative@Base 0
  eglWaitSync@Base 0
-
