@@ -1,3 +1,11 @@
+libglvnd (0.2.999+git20170201-3) experimental; urgency=medium
+
+  * control: Drop depends on lib{egl,glx}-mesa0 | -vendor, these are
+    only for default driver policy and will be added back once we switch
+    mesa to use libglvnd.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 11 May 2017 10:56:23 +0300
+
 libglvnd (0.2.999+git20170201-2) experimental; urgency=medium
 
   * control: Add depends on default libegl/libglx vendor.
