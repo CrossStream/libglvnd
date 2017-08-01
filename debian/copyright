@@ -3,16 +3,99 @@ Upstream-Name: libglvnd
 Source: https://github.com/NVIDIA/libglvnd
 
 Files: *
-Copyright: 2013 NVIDIA Corporation
+Copyright: 2013-2017 NVIDIA Corporation
 License: MIT
 
-Files: src/util/uthash/*
+Files: include/c99_compat.h
+Copyright: 2007-2013 VMware, Inc
+License: MIT
+
+Files: include/glvnd_list.h
+Copyright: 2010 Intel Corporation
+	   2010 Francisco Jerez
+License: MIT
+
+Files:	include/KHR/khrplatform.h
+	include/GL/glxext.h
+	include/GL/glext.h
+	include/EGL/egl.h
+	include/EGL/eglext.h
+	include/EGL/eglplatform.h
+Copyright: 2007-2012 The Khronos Group Inc
+License: MIT
+
+Files:	include/compiler.h
+	include/GL/gl.h
+Copyright: 2009 VMware, Inc.
+	   1999-2006 Brian Paul
+License: MIT
+
+Files:	include/GL/glx.h
+	include/glheader.h
+	src/GLdispatch/vnd-glapi/glapi.h
+	src/GLdispatch/vnd-glapi/u_execmem.c
+Copyright: 1999-2008 Brian Paul
+License: MIT
+
+Files: m4/ax_check_enable_debug.m4
+Copyright: 2011 Rhys Ulerich
+	  2014-2015 Philip Withnall
+License: public-domain
+ Public Domain.
+
+Files: m4/ax_check_link_flag.m4
+Copyright: 2008 Guido U. Draheim
+	   2011 Maarten Bosmans
+License: GPL-3+
+
+Files: m4/ax_pthread.m4
+Copyright: 2008 Steven G. Johnson
+	  2011 Daniel Richard G.
+License: GPL-3+
+
+Files:	src/generate/gen_gldispatch_mapi.py
+	src/GLdispatch/vnd-glapi/entry_common.c
+	src/GLdispatch/vnd-glapi/entry_x86_64_common.c
+	src/GLdispatch/vnd-glapi/entry_x86_64_tsd.c
+Copyright: 2015 NVIDIA CORPORATION
+	   2010 LunarG Inc
+License: MIT
+
+Files:	src/GLdispatch/vnd-glapi/entry.h
+	src/GLdispatch/vnd-glapi/mapi_tmp.h
+	src/GLdispatch/vnd-glapi/entry_x86_64_tls.c
+	src/GLdispatch/vnd-glapi/stub.h
+	src/GLdispatch/vnd-glapi/table.h
+	src/GLdispatch/vnd-glapi/entry_x86_tsd.c
+	src/GLdispatch/vnd-glapi/stub.c
+	src/GLdispatch/vnd-glapi/table.c
+	src/GLdispatch/vnd-glapi/entry_x86_tls.c
+	src/GLdispatch/vnd-glapi/entry_pure_c.c
+Copyright: 2010 LunarG Inc
+License: MIT
+
+Files:	src/GLdispatch/vnd-glapi/u_current_tsd.c
+	src/GLdispatch/vnd-glapi/u_current_tls.c
+Copyright: 2015 NVIDIA CORPORATION
+	   1999-2008 Brian Paul
+License: MIT
+
+Files:	src/GLdispatch/vnd-glapi/mapi_glapi.c
+Copyright: 2010 LunarG Inc
+	   1999-2008 Brian Paul
+License: MIT
+
+Files:	src/util/cJSON*
+Copyright: 2009 Dave Gamble
+License: MIT
+
+Files:	src/util/uthash/*
 Copyright: 2005-2013 Troy D. Hanson
-License: BSD
+License: BSD-1-clause
 
 Files: debian/*
 Copyright: 2013 Timo Aaltonen <tjaalton@ubuntu.com>
-License: MIT or BSD
+License: MIT
 
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a
@@ -35,7 +118,7 @@ License: MIT
  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-License: BSD
+License: BSD-1-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
  .
@@ -53,3 +136,7 @@ License: BSD
  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL-3+
+ On Debian machines the full text of the GNU General Public License
+ version 3 can be found in the file /usr/share/common-licenses/GPL-3.
