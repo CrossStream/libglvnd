@@ -1,6 +1,7 @@
 libglvnd (0.2.999+git20170201-4) UNRELEASED; urgency=medium
 
   * copyright: Updated.
+  * control: Bump policy to 4.0.0, no changes.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Tue, 01 Aug 2017 18:05:00 +0300
 
