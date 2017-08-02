@@ -2,6 +2,8 @@ libglvnd (0.2.999+git20170802-1) UNRELEASED; urgency=medium
 
   * New upstream snapshot.
   * libglx0.symbols: Updated.
+  * libglvnd0.symbols: Arm64 doesn't have support for TLS stubs yet.
+    (Closes: #870444)
 
  -- Timo Aaltonen <tjaalton@debian.org>  Wed, 02 Aug 2017 08:29:50 +0300
 
