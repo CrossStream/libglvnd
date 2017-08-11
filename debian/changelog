@@ -2,6 +2,7 @@ libglvnd (0.2.999+git20170802-3) UNRELEASED; urgency=medium
 
   * control: Add Breaks/Replaces to match mesa upload which enabled
     GLVND. (Closes: #870686)
+  * control: Add back depends on default libegl/libglx vendor.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Fri, 11 Aug 2017 12:50:00 +0300
 
