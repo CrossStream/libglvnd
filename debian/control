@@ -71,10 +71,10 @@ Depends:
  ${misc:Depends},
 # libegl-mesa0 | libegl-vendor,
 Replaces:
-# libegl1-mesa (<< 17.0.0~rc3-2),
+ libegl1-mesa (<< 17.2.0~rc3-2),
  libglvnd0 (<< 0.2.999+git20170201-1)
 Breaks:
-# libegl1-mesa (<< 17.0.0~rc3-2),
+ libegl1-mesa (<< 17.2.0~rc3-2),
  libglvnd0 (<< 0.2.999+git20170201-1)
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- EGL support
@@ -91,9 +91,9 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
 Replaces:
-# libgles2-mesa (<< 17.0.0~rc3-2),
+ libgles2-mesa (<< 17.2.0~rc3-2),
 Breaks:
-# libgles2-mesa (<< 17.0.0~rc3-2),
+ libgles2-mesa (<< 17.2.0~rc3-2),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GLES support
  This is an implementation of the vendor-neutral dispatch layer for
@@ -110,10 +110,10 @@ Depends:
  ${misc:Depends},
  libglx0 (= ${binary:Version}),
 Replaces:
-# libgl1-mesa-glx (<< 17.0.0~rc3-2),
+ libgl1-mesa-glx (<< 17.2.0~rc3-2),
  libglvnd0 (<< 0.2.999+git20170201-1)
 Breaks:
-# libgl1-mesa-glx (<< 17.0.0~rc3-2),
+ libgl1-mesa-glx (<< 17.2.0~rc3-2),
  libglvnd0 (<< 0.2.999+git20170201-1)
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- legacy GL support
@@ -131,10 +131,10 @@ Depends:
  ${misc:Depends},
 # libglx-mesa0 | libglx-vendor,
 Replaces:
-# libgl1-mesa-glx (<< 17.0.0~rc3-2),
+ libgl1-mesa-glx (<< 17.2.0~rc3-2),
  libglvnd0 (<< 0.2.999+git20170201-1)
 Breaks:
-# libgl1-mesa-glx (<< 17.0.0~rc3-2),
+ libgl1-mesa-glx (<< 17.2.0~rc3-2),
  libglvnd0 (<< 0.2.999+git20170201-1)
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GLX support
