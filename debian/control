@@ -55,6 +55,10 @@ Pre-Depends: ${misc:Pre-Depends},
 Depends:
  ${shlibs:Depends},
  ${misc:Depends}
+Breaks:
+ libgldispatch0-nvidia,
+Replaces:
+ libgldispatch0-nvidia,
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library
  This is an implementation of the vendor-neutral dispatch layer for
