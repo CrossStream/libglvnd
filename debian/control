@@ -114,7 +114,8 @@ Replaces:
  libglvnd0 (<< 0.2.999+git20170201-1)
 Breaks:
  libgl1-mesa-glx (<< 17.2.0~rc3-2),
- libglvnd0 (<< 0.2.999+git20170201-1)
+ libglvnd0 (<< 0.2.999+git20170201-1),
+ glx-diversions (<< 0.8),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- legacy GL support
  This is an implementation of the vendor-neutral dispatch layer for
