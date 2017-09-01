@@ -1,4 +1,4 @@
-libglvnd (0.2.999+git20170802-3) UNRELEASED; urgency=medium
+libglvnd (0.2.999+git20170802-3) unstable; urgency=medium
 
   [ Timo Aaltonen ]
   * control: Add Breaks/Replaces to match mesa upload which enabled
@@ -11,7 +11,7 @@ libglvnd (0.2.999+git20170802-3) UNRELEASED; urgency=medium
   * libglvnd0: Add Breaks+Replaces: libgldispatch0-nvidia which also shipped
     libGLdispatch.so.0.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Fri, 11 Aug 2017 12:50:00 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 01 Sep 2017 11:15:04 +0300
 
 libglvnd (0.2.999+git20170802-2) unstable; urgency=medium
 
