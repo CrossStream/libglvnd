@@ -28,6 +28,14 @@ Depends:
  libglx0 (= ${binary:Version}),
  libopengl0 (= ${binary:Version}),
  ${misc:Depends},
+Breaks:
+ libegl1-mesa-dev (<< 17.2.0~rc4-1),
+ libgl1-mesa-dev (<< 17.2.0~rc4-1),
+ libgles2-mesa-dev (<< 17.2.0~rc4-1),
+Replaces:
+ libegl1-mesa-dev (<< 17.2.0~rc4-1),
+ libgl1-mesa-dev (<< 17.2.0~rc4-1),
+ libgles2-mesa-dev (<< 17.2.0~rc4-1),
 Description: Vendor neutral GL dispatch library -- development files
  This is an implementation of the vendor-neutral dispatch layer for
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
