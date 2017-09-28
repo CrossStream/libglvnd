@@ -1,3 +1,9 @@
+libglvnd (0.2.999+git20170802-5) UNRELEASED; urgency=medium
+
+  * control: Mark libglvnd-dev and -core-dev as M-A: same.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 28 Sep 2017 17:17:10 +0300
+
 libglvnd (0.2.999+git20170802-4) unstable; urgency=medium
 
   * control: libglvnd-dev Breaks/Replaces old libegl1-mesa-dev/libgl1-
