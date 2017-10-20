@@ -83,6 +83,7 @@ Pre-Depends: ${misc:Pre-Depends},
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
+ libglvnd0 (= ${binary:Version}),
  libegl-mesa0 | libegl-vendor,
 Replaces:
  libegl1-mesa (<< 17.2.0~rc4-1),
@@ -104,6 +105,7 @@ Pre-Depends: ${misc:Pre-Depends},
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
+ libglvnd0 (= ${binary:Version}),
 Replaces:
  libgles2-mesa (<< 17.2.0~rc4-1),
 Breaks:
@@ -122,6 +124,7 @@ Pre-Depends: ${misc:Pre-Depends},
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
+ libglvnd0 (= ${binary:Version}),
  libglx0 (= ${binary:Version}),
 Replaces:
  libgl1-mesa-glx (<< 17.2.0~rc4-1),
@@ -144,6 +147,7 @@ Pre-Depends: ${misc:Pre-Depends},
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
+ libglvnd0 (= ${binary:Version}),
  libglx-mesa0 | libglx-vendor,
 Replaces:
  libgl1-mesa-glx (<< 17.2.0~rc4-1),
@@ -164,7 +168,8 @@ Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
 Depends:
  ${shlibs:Depends},
- ${misc:Depends}
+ ${misc:Depends},
+ libglvnd0 (= ${binary:Version}),
 Replaces: libglvnd0 (<< 0.2.999+git20170201-1)
 Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
 Multi-Arch: same

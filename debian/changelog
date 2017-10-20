@@ -1,3 +1,9 @@
+libglvnd (0.2.999+git20170802-6) UNRELEASED; urgency=medium
+
+  * Add versioned libglvnd0 dependencies (Workaround for #878851).
+
+ -- Andreas Boll <andreas.boll.dev@gmail.com>  Fri, 20 Oct 2017 11:03:03 +0200
+
 libglvnd (0.2.999+git20170802-5) unstable; urgency=medium
 
   * control: Mark libglvnd-dev and -core-dev as M-A: same.
