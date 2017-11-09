@@ -1,8 +1,12 @@
-libglvnd (0.2.999+git20170802-6) UNRELEASED; urgency=high
+libglvnd (1.0.0-1) UNRELEASED; urgency=high
 
+  [ Andreas Boll ]
   * Add versioned libglvnd0 dependencies (Workaround for #878851).
   * Raise Priority to optional.
   * Bump standards version to 4.1.1.
+
+  [ Timo Aaltonen ]
+  * New upstream release.
 
  -- Andreas Boll <andreas.boll.dev@gmail.com>  Fri, 20 Oct 2017 11:03:03 +0200
 
