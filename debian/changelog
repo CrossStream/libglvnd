@@ -7,6 +7,7 @@ libglvnd (1.0.0-1) UNRELEASED; urgency=high
 
   [ Timo Aaltonen ]
   * New upstream release.
+  * Add a watch file for uscan.
 
  -- Andreas Boll <andreas.boll.dev@gmail.com>  Fri, 20 Oct 2017 11:03:03 +0200
 
