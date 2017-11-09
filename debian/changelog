@@ -1,4 +1,4 @@
-libglvnd (1.0.0-1) UNRELEASED; urgency=high
+libglvnd (1.0.0-1) unstable; urgency=high
 
   [ Andreas Boll ]
   * Add versioned libglvnd0 dependencies (Workaround for #878851).
@@ -10,7 +10,7 @@ libglvnd (1.0.0-1) UNRELEASED; urgency=high
   * Add a watch file for uscan.
   * libgles2.symbols: Updated.
 
- -- Andreas Boll <andreas.boll.dev@gmail.com>  Fri, 20 Oct 2017 11:03:03 +0200
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 09 Nov 2017 12:14:14 +0200
 
 libglvnd (0.2.999+git20170802-5) unstable; urgency=medium
 
