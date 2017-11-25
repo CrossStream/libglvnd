@@ -1,0 +1,14 @@
+Author: Andreas Beckmann <anbe@debian.org>
+Description: fix FTBFS on kFreeBSD and Hurd
+
+--- a/src/GLdispatch/vnd-glapi/u_execmem.c
++++ b/src/GLdispatch/vnd-glapi/u_execmem.c
+@@ -68,7 +68,7 @@ static unsigned char *exec_mem = NULL;
+ static unsigned char *write_mem = NULL;
+ 
+ 
+-#if defined(__linux__) || defined(__OpenBSD__) || defined(_NetBSD__) || defined(__sun) || defined(__HAIKU__)
++#if defined(__linux__) || defined(__OpenBSD__) || defined(_NetBSD__) || defined(__sun) || defined(__HAIKU__) || defined(__FreeBSD_kernel__) || defined(__GNU__)
+ 
+ #include <unistd.h>
+ #include <sys/mman.h>
