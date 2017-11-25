@@ -17,6 +17,9 @@ override_dh_auto_test:
 override_dh_makeshlibs:
 	dh_makeshlibs -a -- -c4
 
+override_dh_bugfiles:
+	dh_bugfiles -A
+
 %:
 	dh $@ --builddirectory=build/
 
