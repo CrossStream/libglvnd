@@ -1,3 +1,9 @@
+libglvnd (1.0.0-2) UNRELEASED; urgency=medium
+
+  * Use source format 3.0 (quilt).
+
+ -- Andreas Beckmann <anbe@debian.org>  Sat, 25 Nov 2017 14:59:46 +0000
+
 libglvnd (1.0.0-1) unstable; urgency=high
 
   [ Andreas Boll ]
