@@ -10,6 +10,7 @@ libglvnd (1.0.0-2) UNRELEASED; urgency=medium
 
   [ Andreas Boll ]
   * Bump standards version to 4.1.2.
+  * control: Remove duplicated Section fields.
 
  -- Andreas Beckmann <anbe@debian.org>  Sat, 25 Nov 2017 14:59:46 +0000
 
