@@ -13,8 +13,9 @@ override_dh_auto_install:
 override_dh_missing:
 	dh_missing --fail-missing
 
-# needs X
 override_dh_auto_test:
+	export DO_X11_TESTS=1
+	(cd build; xvfb-run -a  make check V=1)
 
 override_dh_makeshlibs:
 	dh_makeshlibs -a -- -c4

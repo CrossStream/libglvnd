@@ -1,3 +1,9 @@
+libglvnd (1.0.0-3) UNRELEASED; urgency=medium
+
+  * control, rules: Enable tests, build-depend on xauth, xvfb.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 20 Feb 2018 15:57:56 +0200
+
 libglvnd (1.0.0-2) unstable; urgency=medium
 
   [ Andreas Beckmann ]
