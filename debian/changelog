@@ -1,11 +1,13 @@
-libglvnd (1.0.0+git20180308-1) UNRELEASED; urgency=medium
+libglvnd (1.0.0+git20180308-1) unstable; urgency=medium
 
   * New upstream snapshot.
+    - bump library minor versions to avoid issues with leftover libs
+      taking precedence (Closes: #884717)
   * control, rules: Enable tests, build-depend on xauth, xvfb.
   * kfreebsd-hurd.patch: Dropped, upstream.
   * control: Update VCS urls.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Tue, 20 Feb 2018 15:57:56 +0200
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 23 Mar 2018 10:15:50 +0200
 
 libglvnd (1.0.0-2) unstable; urgency=medium
 
