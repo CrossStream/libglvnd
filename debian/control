@@ -15,8 +15,8 @@ Build-Depends:
 Standards-Version: 4.1.2
 Section: libs
 Homepage: https://github.com/NVIDIA/libglvnd
-Vcs-Git: https://anonscm.debian.org/git/pkg-xorg/lib/libglvnd.git
-Vcs-Browser: https://anonscm.debian.org/git/pkg-xorg/lib/libglvnd.git
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/libglvnd.git
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libglvnd.git
 
 Package: libglvnd-dev
 Section: libdevel
