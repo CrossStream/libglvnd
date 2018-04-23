@@ -1,3 +1,10 @@
+libglvnd (1.0.0+git20180308-2) UNRELEASED; urgency=medium
+
+  * rules: Disable tests, they fail the build on many archs.
+    (Closes: #896602)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 23 Apr 2018 10:54:30 +0300
+
 libglvnd (1.0.0+git20180308-1) unstable; urgency=medium
 
   * New upstream snapshot.
