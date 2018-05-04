@@ -84,7 +84,7 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
- libegl-mesa0 | libegl-vendor,
+ libegl-mesa0,
 Replaces:
  libegl1-mesa (<< 17.2.0~rc4-1),
  libglvnd0 (<< 0.2.999+git20170201-1)
@@ -145,7 +145,7 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
- libglx-mesa0 | libglx-vendor,
+ libglx-mesa0,
 Replaces:
  libgl1-mesa-glx (<< 17.2.0~rc4-1),
  libglvnd0 (<< 0.2.999+git20170201-1)
