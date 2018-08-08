@@ -1,3 +1,9 @@
+libglvnd (1.0.0+git20180308-4) UNRELEASED; urgency=medium
+
+  * rules, libgles2: Add GLESv1 support. (LP: #1782285)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 08 Aug 2018 13:10:03 +0300
+
 libglvnd (1.0.0+git20180308-3) unstable; urgency=medium
 
   * control: Drop the alternate depends on lib{egl,glx}-vendor, the

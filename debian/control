@@ -33,10 +33,12 @@ Depends:
 Breaks:
  libegl1-mesa-dev (<< 17.2.0~rc4-1),
  libgl1-mesa-dev (<< 17.2.0~rc4-1),
+ libgles1-mesa-dev (<< 17.0.0~rc3-1),
  libgles2-mesa-dev (<< 17.2.0~rc4-1),
 Replaces:
  libegl1-mesa-dev (<< 17.2.0~rc4-1),
  libgl1-mesa-dev (<< 17.2.0~rc4-1),
+ libgles1-mesa-dev (<< 17.0.0~rc3-1),
  libgles2-mesa-dev (<< 17.2.0~rc4-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- development files
@@ -106,8 +108,10 @@ Depends:
  ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
 Replaces:
+ libgles1-mesa (<< 17.0.0~rc3-1),
  libgles2-mesa (<< 17.2.0~rc4-1),
 Breaks:
+ libgles1-mesa (<< 17.0.0~rc3-1),
  libgles2-mesa (<< 17.2.0~rc4-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GLES support
