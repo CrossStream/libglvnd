@@ -1,8 +1,8 @@
-libglvnd (1.0.0+git20180308-5) UNRELEASED; urgency=medium
+libglvnd (1.0.0+git20180308-5) unstable; urgency=medium
 
   * Move libGLESv1 to it's own package.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Wed, 08 Aug 2018 16:32:56 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 08 Aug 2018 17:48:50 +0300
 
 libglvnd (1.0.0+git20180308-4) unstable; urgency=medium
 
