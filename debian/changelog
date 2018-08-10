@@ -1,10 +1,10 @@
-libglvnd (1.1.0-1) UNRELEASED; urgency=medium
+libglvnd (1.1.0-1) unstable; urgency=medium
 
   * New upstream release.
   * gles: Move libgles1 symbols to the correct package.
   * libgl1.symbols: Updated.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Fri, 10 Aug 2018 14:13:18 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 10 Aug 2018 14:50:24 +0300
 
 libglvnd (1.0.0+git20180308-5) unstable; urgency=medium
 
