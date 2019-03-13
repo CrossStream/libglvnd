@@ -1,3 +1,9 @@
+libglvnd (1.1.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release. (LP: #1816004)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 13 Mar 2019 20:05:49 +0200
+
 libglvnd (1.1.0-1) unstable; urgency=medium
 
   * New upstream release.
