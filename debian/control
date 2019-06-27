@@ -35,12 +35,12 @@ Breaks:
  libegl1-mesa-dev (<< 17.2.0~rc4-1),
  libgl1-mesa-dev (<< 17.2.0~rc4-1),
  libgles1-mesa-dev (<< 17.0.0~rc3-1),
- libgles2-mesa-dev (<< 17.2.0~rc4-1),
+ libgles2-mesa-dev (<< 19.1.0-1),
 Replaces:
  libegl1-mesa-dev (<< 17.2.0~rc4-1),
  libgl1-mesa-dev (<< 17.2.0~rc4-1),
  libgles1-mesa-dev (<< 17.0.0~rc3-1),
- libgles2-mesa-dev (<< 17.2.0~rc4-1),
+ libgles2-mesa-dev (<< 19.1.0-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- development files
  This is an implementation of the vendor-neutral dispatch layer for
