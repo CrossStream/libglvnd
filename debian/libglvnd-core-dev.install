@@ -1,2 +1,2 @@
 usr/include/glvnd/*.h
-usr/lib/*/pkgconfig/*.pc
+usr/lib/*/pkgconfig/libglvnd.pc
