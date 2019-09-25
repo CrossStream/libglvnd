@@ -1,4 +1,4 @@
-libglvnd (1.1.1-1) UNRELEASED; urgency=medium
+libglvnd (1.2.0-1) UNRELEASED; urgency=medium
 
   * New upstream release. (LP: #1816004)
   * add-pkgconfig-support-for-libs.patch: Add missing pkgconfig files for
