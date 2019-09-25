@@ -1,8 +1,6 @@
 libglvnd (1.2.0-1) UNRELEASED; urgency=medium
 
-  * New upstream release. (LP: #1816004)
-  * add-pkgconfig-support-for-libs.patch: Add missing pkgconfig files for
-    EGL, GL, GLX, GLESv1, GLESv2 and OpenGL. (Closes: #930514)
+  * New upstream release. (Closes: #930514) (LP: #1816004)
   * control: Bump libglvnd-dev Breaks/Replaces for libgles2-mesa-dev,
     glesv2.pc moved here.
 
