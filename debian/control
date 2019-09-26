@@ -26,16 +26,8 @@ Depends:
  ${misc:Depends},
 Breaks:
  libglvnd-core-dev (<< 1.2.0-1),
- libegl1-mesa-dev (<< 17.2.0~rc4-1),
- libgl1-mesa-dev (<< 17.2.0~rc4-1),
- libgles1-mesa-dev (<< 17.0.0~rc3-1),
- libgles2-mesa-dev (<< 17.2.0~rc4-1),
 Replaces:
  libglvnd-core-dev (<< 1.2.0-1),
- libegl1-mesa-dev (<< 17.2.0~rc4-1),
- libgl1-mesa-dev (<< 17.2.0~rc4-1),
- libgles1-mesa-dev (<< 17.0.0~rc3-1),
- libgles2-mesa-dev (<< 17.2.0~rc4-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- development files
  This is an implementation of the vendor-neutral dispatch layer for
@@ -68,12 +60,6 @@ Depends:
  ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
  libegl-mesa0,
-Replaces:
- libegl1-mesa (<< 17.2.0~rc4-1),
- libglvnd0 (<< 0.2.999+git20170201-1)
-Breaks:
- libegl1-mesa (<< 17.2.0~rc4-1),
- libglvnd0 (<< 0.2.999+git20170201-1)
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- EGL support
  This is an implementation of the vendor-neutral dispatch layer for
@@ -107,12 +93,6 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
-Replaces:
- libgles1-mesa (<< 17.0.0~rc3-1),
- libgles2 (<< 1.0.0+git20180308-5),
-Breaks:
- libgles1-mesa (<< 17.0.0~rc3-1),
- libgles2 (<< 1.0.0+git20180308-5),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GLESv1 support
  This is an implementation of the vendor-neutral dispatch layer for
@@ -127,10 +107,6 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
-Replaces:
- libgles2-mesa (<< 17.2.0~rc4-1),
-Breaks:
- libgles2-mesa (<< 17.2.0~rc4-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GLESv2 support
  This is an implementation of the vendor-neutral dispatch layer for
@@ -166,13 +142,6 @@ Depends:
  ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
  libglx0 (= ${binary:Version}),
-Replaces:
- libgl1-mesa-glx (<< 17.2.0~rc4-1),
- libglvnd0 (<< 0.2.999+git20170201-1)
-Breaks:
- libgl1-mesa-glx (<< 17.2.0~rc4-1),
- libglvnd0 (<< 0.2.999+git20170201-1),
- glx-diversions (<< 0.8),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- legacy GL support
  This is an implementation of the vendor-neutral dispatch layer for
@@ -209,12 +178,6 @@ Depends:
  ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
  libglx-mesa0,
-Replaces:
- libgl1-mesa-glx (<< 17.2.0~rc4-1),
- libglvnd0 (<< 0.2.999+git20170201-1)
-Breaks:
- libgl1-mesa-glx (<< 17.2.0~rc4-1),
- libglvnd0 (<< 0.2.999+git20170201-1)
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GLX support
  This is an implementation of the vendor-neutral dispatch layer for
@@ -248,8 +211,6 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  libglvnd0 (= ${binary:Version}),
-Replaces: libglvnd0 (<< 0.2.999+git20170201-1)
-Breaks: libglvnd0 (<< 0.2.999+git20170201-1)
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- OpenGL support
  This is an implementation of the vendor-neutral dispatch layer for
