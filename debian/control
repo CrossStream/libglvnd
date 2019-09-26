@@ -24,12 +24,6 @@ Architecture: any
 Depends:
  libglvnd0 (= ${binary:Version}),
  libglvnd-core-dev (= ${binary:Version}),
- libegl1 (= ${binary:Version}),
- libgles1 (= ${binary:Version}),
- libgles2 (= ${binary:Version}),
- libgl1 (= ${binary:Version}),
- libglx0 (= ${binary:Version}),
- libopengl0 (= ${binary:Version}),
  ${misc:Depends},
 Breaks:
  libegl1-mesa-dev (<< 17.2.0~rc4-1),
