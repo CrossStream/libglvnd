@@ -1,4 +1,4 @@
-libglvnd (1.2.0-1) UNRELEASED; urgency=medium
+libglvnd (1.2.0-1) experimental; urgency=medium
 
   * New upstream release. (Closes: #930514) (LP: #1816004)
   * Package lib{egl,gl,gles,glx,opengl}-dev, headers etc moved here from
@@ -11,7 +11,7 @@ libglvnd (1.2.0-1) UNRELEASED; urgency=medium
   * control: Fix lib{egl,gles,glx}-dev depends.
   * Migrate to python3. (Closes: #936868)
 
- -- Timo Aaltonen <tjaalton@debian.org>  Wed, 13 Mar 2019 20:05:49 +0200
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 26 Sep 2019 15:16:32 +0300
 
 libglvnd (1.1.0-1) unstable; urgency=medium
 
