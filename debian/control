@@ -11,7 +11,7 @@ Build-Depends:
  python-libxml2,
  x11proto-gl-dev,
  xauth,
- xvfb,
+ xvfb <!nocheck>,
 Standards-Version: 4.1.2
 Section: libs
 Homepage: https://github.com/NVIDIA/libglvnd
