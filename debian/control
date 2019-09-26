@@ -35,12 +35,12 @@ Breaks:
  libegl1-mesa-dev (<< 17.2.0~rc4-1),
  libgl1-mesa-dev (<< 17.2.0~rc4-1),
  libgles1-mesa-dev (<< 17.0.0~rc3-1),
- libgles2-mesa-dev (<< 19.1.0-1),
+ libgles2-mesa-dev (<< 17.2.0~rc4-1),
 Replaces:
  libegl1-mesa-dev (<< 17.2.0~rc4-1),
  libgl1-mesa-dev (<< 17.2.0~rc4-1),
  libgles1-mesa-dev (<< 17.0.0~rc3-1),
- libgles2-mesa-dev (<< 19.1.0-1),
+ libgles2-mesa-dev (<< 17.2.0~rc4-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- development files
  This is an implementation of the vendor-neutral dispatch layer for
@@ -101,6 +101,25 @@ Description: Vendor neutral GL dispatch library -- EGL support
  .
  This package contains support for EGL.
 
+Package: libegl-dev
+Architecture: any
+Depends:
+ libegl1 (= ${binary:Version}),
+ ${misc:Depends},
+Replaces:
+ libegl1-mesa-dev (<< 19.2.0-1),
+ libglvnd-dev (<< 1.2.0-1),
+Breaks:
+ libegl1-mesa-dev (<< 19.2.0-1),
+ libglvnd-dev (<< 1.2.0-1),
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- EGL development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package provides the development environment for compiling programs
+ against the EGL library.
+
 Package: libgles1
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
@@ -139,6 +158,26 @@ Description: Vendor neutral GL dispatch library -- GLESv2 support
  .
  This package contains support for GLESv2.
 
+Package: libgles-dev
+Architecture: any
+Depends:
+ libgles1 (= ${binary:Version}),
+ libgles2 (= ${binary:Version}),
+ ${misc:Depends},
+Replaces:
+ libgles2-mesa-dev (<< 19.2.0-1),
+ libglvnd-dev (<< 1.2.0-1),
+Breaks:
+ libgles2-mesa-dev (<< 19.2.0-1),
+ libglvnd-dev (<< 1.2.0-1),
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- GLES development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package provides the development environment for compiling programs
+ against the GLES libraries.
+
 Package: libgl1
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
@@ -161,6 +200,27 @@ Description: Vendor neutral GL dispatch library -- legacy GL support
  .
  This package contains support for old libGL for compatibility reasons.
 
+Package: libgl-dev
+Architecture: any
+Depends:
+ libgl1 (= ${binary:Version}),
+ ${misc:Depends},
+Replaces:
+ libgl1-mesa-dev (<< 19.2.0-1),
+ libglvnd-dev (<< 1.2.0-1),
+ mesa-common-dev (<< 19.2.0-1),
+Breaks:
+ libgl1-mesa-dev (<< 19.2.0-1),
+ libglvnd-dev (<< 1.2.0-1),
+ mesa-common-dev (<< 19.2.0-1),
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- GL development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package provides the development environment for compiling programs
+ against the GL library.
+
 Package: libglx0
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
@@ -182,6 +242,25 @@ Description: Vendor neutral GL dispatch library -- GLX support
  .
  This package contains support for GLX.
 
+Package: libglx-dev
+Architecture: any
+Depends:
+ libglx0 (= ${binary:Version}),
+ ${misc:Depends},
+Replaces:
+ libglvnd-dev (<< 1.2.0-1),
+ mesa-common-dev (<< 19.2.0-1),
+Breaks:
+ libglvnd-dev (<< 1.2.0-1),
+ mesa-common-dev (<< 19.2.0-1),
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- GLX development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package provides the development environment for compiling programs
+ against the GLX library.
+
 Package: libopengl0
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
@@ -197,3 +276,20 @@ Description: Vendor neutral GL dispatch library -- OpenGL support
  arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
  .
  This package contains support for OpenGL.
+
+Package: libopengl-dev
+Architecture: any
+Depends:
+ libopengl0 (= ${binary:Version}),
+ ${misc:Depends},
+Replaces:
+ libglvnd-dev (<< 1.2.0-1),
+Breaks:
+ libglvnd-dev (<< 1.2.0-1),
+Multi-Arch: same
+Description: Vendor neutral GL dispatch library -- OpenGL development files
+ This is an implementation of the vendor-neutral dispatch layer for
+ arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+ .
+ This package provides the development environment for compiling programs
+ against the OpenGL library.

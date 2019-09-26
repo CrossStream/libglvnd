@@ -1,7 +1,1 @@
-usr/lib/*/*.so
-usr/lib/*/pkgconfig/egl.pc
-usr/lib/*/pkgconfig/gl.pc
-usr/lib/*/pkgconfig/glx.pc
-usr/lib/*/pkgconfig/glesv1_cm.pc
-usr/lib/*/pkgconfig/glesv2.pc
-usr/lib/*/pkgconfig/opengl.pc
+usr/lib/*/libGLdispatch.so

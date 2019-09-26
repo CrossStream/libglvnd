@@ -1,0 +1,4 @@
+usr/include/GL
+usr/include/KHR
+usr/lib/*/libGL.so
+usr/lib/*/pkgconfig/gl.pc
