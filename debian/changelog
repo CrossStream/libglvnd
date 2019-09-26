@@ -6,6 +6,7 @@ libglvnd (1.2.0-1) UNRELEASED; urgency=medium
   * libgl1.symbols: Updated.
   * Fold libglvnd-core-dev into libglvnd-dev.
   * control: Drop old Breaks/Replaces.
+  * libgles1: Override package-name-doesnt-match-sonames.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Wed, 13 Mar 2019 20:05:49 +0200
 
