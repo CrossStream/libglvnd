@@ -25,6 +25,8 @@ libGL.so.1 libgl1 #MINVER#
  glArrayElement@Base 0
  glArrayElementEXT@Base 0
  glArrayObjectATI@Base 0
+ glAsyncCopyBufferSubDataNVX@Base 1.2.0
+ glAsyncCopyImageSubDataNVX@Base 1.2.0
  glAsyncMarkerSGIX@Base 0
  glAttachObjectARB@Base 0
  glAttachShader@Base 0
@@ -84,6 +86,7 @@ libGL.so.1 libgl1 #MINVER#
  glBindRenderbufferOES@Base 0
  glBindSampler@Base 0
  glBindSamplers@Base 0
+ glBindShadingRateImageNV@Base 1.2.0
  glBindTexGenParameterEXT@Base 0
  glBindTexture@Base 0
  glBindTextureEXT@Base 0
@@ -158,6 +161,7 @@ libGL.so.1 libgl1 #MINVER#
  glBlitFramebufferNV@Base 0
  glBlitNamedFramebuffer@Base 0
  glBufferAddressRangeNV@Base 0
+ glBufferAttachMemoryNV@Base 1.2.0
  glBufferData@Base 0
  glBufferDataARB@Base 0
  glBufferDataSysmem@Base 0
@@ -218,6 +222,7 @@ libGL.so.1 libgl1 #MINVER#
  glClientActiveTextureARB@Base 0
  glClientActiveVertexStreamATI@Base 0
  glClientAttribDefaultEXT@Base 0
+ glClientWaitSemaphoreui64NVX@Base 1.2.0
  glClientWaitSync@Base 0
  glClientWaitSyncAPPLE@Base 0
  glClientWaitSyncValueuiNVX@Base 0
@@ -425,6 +430,7 @@ libGL.so.1 libgl1 #MINVER#
  glCreateProgram@Base 0
  glCreateProgramObjectARB@Base 0
  glCreateProgramPipelines@Base 0
+ glCreateProgressFenceNVX@Base 1.2.0
  glCreateQueries@Base 0
  glCreateRenderbuffers@Base 0
  glCreateSamplers@Base 0
@@ -593,6 +599,8 @@ libGL.so.1 libgl1 #MINVER#
  glDrawElementsInstancedNV@Base 0
  glDrawMeshArraysSUN@Base 0
  glDrawMeshNV@Base 0
+ glDrawMeshTasksIndirectNV@Base 1.2.0
+ glDrawMeshTasksNV@Base 1.2.0
  glDrawPixels@Base 0
  glDrawRangeElementArrayAPPLE@Base 0
  glDrawRangeElementArrayATI@Base 0
@@ -767,6 +775,7 @@ libGL.so.1 libgl1 #MINVER#
  glFramebufferFoveationConfigQCOM@Base 1.1.0
  glFramebufferFoveationParametersQCOM@Base 1.1.0
  glFramebufferParameteri@Base 0
+ glFramebufferParameteriMESA@Base 1.2.0
  glFramebufferPixelLocalStorageSizeEXT@Base 1.1.0
  glFramebufferReadBufferEXT@Base 0
  glFramebufferRenderbuffer@Base 0
@@ -955,6 +964,7 @@ libGL.so.1 libgl1 #MINVER#
  glGetFramebufferParameterfvAMD@Base 1.1.0
  glGetFramebufferParameteriv@Base 0
  glGetFramebufferParameterivEXT@Base 0
+ glGetFramebufferParameterivMESA@Base 1.2.0
  glGetFramebufferPixelLocalStorageSizeEXT@Base 1.1.0
  glGetGraphicsResetStatus@Base 0
  glGetGraphicsResetStatusARB@Base 0
@@ -1013,6 +1023,7 @@ libGL.so.1 libgl1 #MINVER#
  glGetMaterialxOES@Base 0
  glGetMaterialxv@Base 0
  glGetMaterialxvOES@Base 0
+ glGetMemoryObjectDetachedResourcesuivNV@Base 1.2.0
  glGetMemoryObjectParameterivEXT@Base 1.1.0
  glGetMinmax@Base 0
  glGetMinmaxEXT@Base 0
@@ -1183,6 +1194,8 @@ libGL.so.1 libgl1 #MINVER#
  glGetShaderSource@Base 0
  glGetShaderSourceARB@Base 0
  glGetShaderiv@Base 0
+ glGetShadingRateImagePaletteNV@Base 1.2.0
+ glGetShadingRateSampleLocationivNV@Base 1.2.0
  glGetSharpenTexFuncSGIS@Base 0
  glGetStageIndexNV@Base 0
  glGetString@Base 0
@@ -1653,6 +1666,8 @@ libGL.so.1 libgl1 #MINVER#
  glMultiDrawElementsIndirectCount@Base 1.1.0
  glMultiDrawElementsIndirectCountARB@Base 0
  glMultiDrawElementsIndirectEXT@Base 0
+ glMultiDrawMeshTasksIndirectCountNV@Base 1.2.0
+ glMultiDrawMeshTasksIndirectNV@Base 1.2.0
  glMultiDrawRangeElementArrayAPPLE@Base 0
  glMultiModeDrawArraysIBM@Base 0
  glMultiModeDrawElementsIBM@Base 0
@@ -1795,8 +1810,12 @@ libGL.so.1 libgl1 #MINVER#
  glMulticastGetQueryObjectivNV@Base 1.1.0
  glMulticastGetQueryObjectui64vNV@Base 1.1.0
  glMulticastGetQueryObjectuivNV@Base 1.1.0
+ glMulticastScissorArrayvNVX@Base 1.2.0
+ glMulticastViewportArrayvNVX@Base 1.2.0
+ glMulticastViewportPositionWScaleNVX@Base 1.2.0
  glMulticastWaitSyncNV@Base 1.1.0
  glNVENCInterOpFunctionNVX@Base 0
+ glNamedBufferAttachMemoryNV@Base 1.2.0
  glNamedBufferData@Base 0
  glNamedBufferDataEXT@Base 0
  glNamedBufferPageCommitmentARB@Base 0
@@ -1841,6 +1860,7 @@ libGL.so.1 libgl1 #MINVER#
  glNamedRenderbufferStorage@Base 0
  glNamedRenderbufferStorageEXT@Base 0
  glNamedRenderbufferStorageMultisample@Base 0
+ glNamedRenderbufferStorageMultisampleAdvancedAMD@Base 1.2.0
  glNamedRenderbufferStorageMultisampleCoverageEXT@Base 0
  glNamedRenderbufferStorageMultisampleEXT@Base 0
  glNamedStringARB@Base 0
@@ -2266,6 +2286,7 @@ libGL.so.1 libgl1 #MINVER#
  glRenderbufferStorageMultisample@Base 0
  glRenderbufferStorageMultisampleANGLE@Base 0
  glRenderbufferStorageMultisampleAPPLE@Base 0
+ glRenderbufferStorageMultisampleAdvancedAMD@Base 1.2.0
  glRenderbufferStorageMultisampleCoverageNV@Base 0
  glRenderbufferStorageMultisampleEXT@Base 0
  glRenderbufferStorageMultisampleIMG@Base 0
@@ -2297,6 +2318,7 @@ libGL.so.1 libgl1 #MINVER#
  glRequestResidentProgramsNV@Base 0
  glResetHistogram@Base 0
  glResetHistogramEXT@Base 0
+ glResetMemoryObjectParameterNV@Base 1.2.0
  glResetMinmax@Base 0
  glResetMinmaxEXT@Base 0
  glResizeBuffersMESA@Base 0
@@ -2338,6 +2360,8 @@ libGL.so.1 libgl1 #MINVER#
  glScissorArrayv@Base 0
  glScissorArrayvNV@Base 0
  glScissorArrayvOES@Base 1.1.0
+ glScissorExclusiveArrayvNV@Base 1.2.0
+ glScissorExclusiveNV@Base 1.2.0
  glScissorIndexed@Base 0
  glScissorIndexedNV@Base 0
  glScissorIndexedOES@Base 1.1.0
@@ -2403,8 +2427,13 @@ libGL.so.1 libgl1 #MINVER#
  glShaderSource@Base 0
  glShaderSourceARB@Base 0
  glShaderStorageBlockBinding@Base 0
+ glShadingRateImageBarrierNV@Base 1.2.0
+ glShadingRateImagePaletteNV@Base 1.2.0
+ glShadingRateSampleOrderCustomNV@Base 1.2.0
+ glShadingRateSampleOrderNV@Base 1.2.0
  glSharpenTexFuncSGIS@Base 0
  glSignalSemaphoreEXT@Base 1.1.0
+ glSignalSemaphoreui64NVX@Base 1.2.0
  glSignalVkFenceNV@Base 1.1.0
  glSignalVkSemaphoreNV@Base 1.1.0
  glSpecializeShader@Base 1.1.0
@@ -2457,6 +2486,7 @@ libGL.so.1 libgl1 #MINVER#
  glTestFenceAPPLE@Base 0
  glTestFenceNV@Base 0
  glTestObjectAPPLE@Base 0
+ glTexAttachMemoryNV@Base 1.2.0
  glTexBuffer@Base 0
  glTexBufferARB@Base 0
  glTexBufferEXT@Base 0
@@ -2622,6 +2652,7 @@ libGL.so.1 libgl1 #MINVER#
  glTexSubImage3DNV@Base 0
  glTexSubImage3DOES@Base 0
  glTexSubImage4DSGIS@Base 0
+ glTextureAttachMemoryNV@Base 1.2.0
  glTextureBarrier@Base 0
  glTextureBarrierNV@Base 0
  glTextureBuffer@Base 0
@@ -2828,6 +2859,7 @@ libGL.so.1 libgl1 #MINVER#
  glUnmapObjectBufferATI@Base 0
  glUnmapTexture2DINTEL@Base 0
  glUpdateObjectBufferATI@Base 0
+ glUploadGpuMaskNVX@Base 1.2.0
  glUseProgram@Base 0
  glUseProgramObjectARB@Base 0
  glUseProgramStages@Base 0
@@ -2840,6 +2872,7 @@ libGL.so.1 libgl1 #MINVER#
  glVDPAUMapSurfacesNV@Base 0
  glVDPAURegisterOutputSurfaceNV@Base 0
  glVDPAURegisterVideoSurfaceNV@Base 0
+ glVDPAURegisterVideoSurfaceWithPictureStructureNV@Base 1.2.0
  glVDPAUSurfaceAccessNV@Base 0
  glVDPAUUnmapSurfacesNV@Base 0
  glVDPAUUnregisterSurfaceNV@Base 0
@@ -3225,6 +3258,7 @@ libGL.so.1 libgl1 #MINVER#
  glViewportPositionWScaleNV@Base 1.1.0
  glViewportSwizzleNV@Base 0
  glWaitSemaphoreEXT@Base 1.1.0
+ glWaitSemaphoreui64NVX@Base 1.2.0
  glWaitSync@Base 0
  glWaitSyncAPPLE@Base 0
  glWaitSyncValueuiNVX@Base 0
@@ -3371,6 +3405,7 @@ libGL.so.1 libgl1 #MINVER#
  glXGetScreenDriver@Base 0
  glXGetSelectedEvent@Base 0
  glXGetSelectedEventSGIX@Base 0
+ glXGetSwapIntervalMESA@Base 1.2.0
  glXGetSyncValuesOML@Base 0
  glXGetTransparentIndexSUN@Base 0
  glXGetVideoDeviceNV@Base 0
@@ -3426,6 +3461,7 @@ libGL.so.1 libgl1 #MINVER#
  glXSwapBuffers@Base 0
  glXSwapBuffersMscOML@Base 0
  glXSwapIntervalEXT@Base 0
+ glXSwapIntervalMESA@Base 1.2.0
  glXSwapIntervalSGI@Base 0
  glXUseXFont@Base 0
  glXWaitForMscOML@Base 0
