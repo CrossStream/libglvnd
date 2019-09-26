@@ -11,6 +11,7 @@ libglvnd (1.2.0-1) UNRELEASED; urgency=medium
   * control: Add mesa-common-dev to lib{gl,glx}-dev depends, due to
     {gl,glx}_mangle.h includes.
   * control: Fix lib{egl,gles,glx}-dev depends.
+  * Migrate to python3. (Closes: #936868)
 
  -- Timo Aaltonen <tjaalton@debian.org>  Wed, 13 Mar 2019 20:05:49 +0200
 
