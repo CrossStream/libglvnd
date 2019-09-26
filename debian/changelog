@@ -4,6 +4,7 @@ libglvnd (1.2.0-1) UNRELEASED; urgency=medium
   * Package lib{egl,gl,gles,glx,opengl}-dev, headers etc moved here from
     mesa.
   * libgl1.symbols: Updated.
+  * Fold libglvnd-core-dev into libglvnd-dev.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Wed, 13 Mar 2019 20:05:49 +0200
 
