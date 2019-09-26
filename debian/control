@@ -81,6 +81,8 @@ Package: libegl-dev
 Architecture: any
 Depends:
  libegl1 (= ${binary:Version}),
+ libgl-dev,
+ libx11-dev,
  ${misc:Depends},
 Replaces:
  libegl1-mesa-dev (<< 19.2.0-1),
@@ -127,6 +129,8 @@ Description: Vendor neutral GL dispatch library -- GLESv2 support
 Package: libgles-dev
 Architecture: any
 Depends:
+ libegl-dev,
+ libgl-dev,
  libgles1 (= ${binary:Version}),
  libgles2 (= ${binary:Version}),
  ${misc:Depends},
@@ -200,6 +204,7 @@ Package: libglx-dev
 Architecture: any
 Depends:
  libglx0 (= ${binary:Version}),
+ libx11-dev,
  mesa-common-dev,
  ${misc:Depends},
 Replaces:
