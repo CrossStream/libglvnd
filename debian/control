@@ -35,6 +35,16 @@ Description: Vendor neutral GL dispatch library -- development files
  .
  This package contains the development files for libglvnd.
 
+Package: libglvnd-core-dev
+Section: oldlibs
+Architecture: any
+Depends:
+ libglvnd-dev,
+ ${misc:Depends},
+Multi-Arch: same
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
 Package: libglvnd0
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends},
