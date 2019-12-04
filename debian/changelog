@@ -1,3 +1,9 @@
+libglvnd (1.2.0-2) UNRELEASED; urgency=medium
+
+  * control, copyright: Update upstream url.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 04 Dec 2019 16:50:55 +0200
+
 libglvnd (1.2.0-1) experimental; urgency=medium
 
   * New upstream release. (Closes: #930514) (LP: #1816004)
