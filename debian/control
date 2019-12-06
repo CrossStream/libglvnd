@@ -4,10 +4,12 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: Timo Aaltonen <tjaalton@debian.org>
 Build-Depends:
  debhelper (>= 10),
+ meson,
  pkg-config,
  libx11-dev,
  libxext-dev,
  python3-libxml2,
+ python3-setuptools,
  x11proto-gl-dev,
  xauth,
  xvfb <!nocheck>,

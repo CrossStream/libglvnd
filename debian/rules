@@ -23,7 +23,8 @@ override_dh_bugfiles:
 	dh_bugfiles -A
 
 %:
-	dh $@ --builddirectory=build/
+	dh $@ --builddirectory=build/ \
+		--buildsystem=meson
 
 # For maintainer use only, generate a tarball:
 gentarball: SOURCE=libglvnd
