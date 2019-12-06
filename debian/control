@@ -26,9 +26,9 @@ Depends:
  libglvnd0 (= ${binary:Version}),
  ${misc:Depends},
 Breaks:
- libglvnd-core-dev (<< 1.2.0-1),
+ libglvnd-core-dev (<< 1.3.0-1),
 Replaces:
- libglvnd-core-dev (<< 1.2.0-1),
+ libglvnd-core-dev (<< 1.3.0-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- development files
  This is an implementation of the vendor-neutral dispatch layer for
@@ -86,11 +86,11 @@ Depends:
  libx11-dev,
  ${misc:Depends},
 Replaces:
- libegl1-mesa-dev (<< 19.2.0-1),
- libglvnd-dev (<< 1.2.0-1),
+ libegl1-mesa-dev (<< 19.3.0~rc6-1),
+ libglvnd-dev (<< 1.3.0-1),
 Breaks:
- libegl1-mesa-dev (<< 19.2.0-1),
- libglvnd-dev (<< 1.2.0-1),
+ libegl1-mesa-dev (<< 19.3.0~rc6-1),
+ libglvnd-dev (<< 1.3.0-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- EGL development files
  This is an implementation of the vendor-neutral dispatch layer for
@@ -136,11 +136,11 @@ Depends:
  libgles2 (= ${binary:Version}),
  ${misc:Depends},
 Replaces:
- libgles2-mesa-dev (<< 19.2.0-1),
- libglvnd-dev (<< 1.2.0-1),
+ libgles2-mesa-dev (<< 19.3.0~rc6-1),
+ libglvnd-dev (<< 1.3.0-1),
 Breaks:
- libgles2-mesa-dev (<< 19.2.0-1),
- libglvnd-dev (<< 1.2.0-1),
+ libgles2-mesa-dev (<< 19.3.0~rc6-1),
+ libglvnd-dev (<< 1.3.0-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GLES development files
  This is an implementation of the vendor-neutral dispatch layer for
@@ -170,13 +170,13 @@ Depends:
  libgl1 (= ${binary:Version}),
  ${misc:Depends},
 Replaces:
- libgl1-mesa-dev (<< 19.2.0-1),
- libglvnd-dev (<< 1.2.0-1),
- mesa-common-dev (<< 19.2.0-1),
+ libgl1-mesa-dev (<< 19.3.0~rc6-1),
+ libglvnd-dev (<< 1.3.0-1),
+ mesa-common-dev (<< 19.3.0~rc6-1),
 Breaks:
- libgl1-mesa-dev (<< 19.2.0-1),
- libglvnd-dev (<< 1.2.0-1),
- mesa-common-dev (<< 19.2.0-1),
+ libgl1-mesa-dev (<< 19.3.0~rc6-1),
+ libglvnd-dev (<< 1.3.0-1),
+ mesa-common-dev (<< 19.3.0~rc6-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GL development files
  This is an implementation of the vendor-neutral dispatch layer for
@@ -207,11 +207,11 @@ Depends:
  libx11-dev,
  ${misc:Depends},
 Replaces:
- libglvnd-dev (<< 1.2.0-1),
- mesa-common-dev (<< 19.2.0-1),
+ libglvnd-dev (<< 1.3.0-1),
+ mesa-common-dev (<< 19.3.0~rc6-1),
 Breaks:
- libglvnd-dev (<< 1.2.0-1),
- mesa-common-dev (<< 19.2.0-1),
+ libglvnd-dev (<< 1.3.0-1),
+ mesa-common-dev (<< 19.3.0~rc6-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- GLX development files
  This is an implementation of the vendor-neutral dispatch layer for
@@ -240,9 +240,9 @@ Depends:
  libopengl0 (= ${binary:Version}),
  ${misc:Depends},
 Replaces:
- libglvnd-dev (<< 1.2.0-1),
+ libglvnd-dev (<< 1.3.0-1),
 Breaks:
- libglvnd-dev (<< 1.2.0-1),
+ libglvnd-dev (<< 1.3.0-1),
 Multi-Arch: same
 Description: Vendor neutral GL dispatch library -- OpenGL development files
  This is an implementation of the vendor-neutral dispatch layer for
