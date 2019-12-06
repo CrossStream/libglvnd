@@ -4,6 +4,7 @@ libglvnd (1.3.0-1) UNRELEASED; urgency=medium
   * control, copyright: Update upstream url.
   * copyright: Updated.
   * control, rules: Build with meson.
+  * libegl1.symbols: Updated.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Wed, 04 Dec 2019 16:50:55 +0200
 

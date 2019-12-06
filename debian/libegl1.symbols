@@ -10,9 +10,7 @@ libEGL.so.1 libegl1 #MINVER#
  eglCreatePbufferSurface@Base 0
  eglCreatePixmapSurface@Base 0
  eglCreatePlatformPixmapSurface@Base 0
- eglCreatePlatformPixmapSurfaceEXT@Base 0
  eglCreatePlatformWindowSurface@Base 0
- eglCreatePlatformWindowSurfaceEXT@Base 0
  eglCreateSync@Base 0
  eglCreateWindowSurface@Base 0
  eglDestroyContext@Base 0
