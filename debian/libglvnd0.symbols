@@ -16,4 +16,4 @@ libGLdispatch.so.0 libglvnd0 #MINVER#
  __glDispatchUnregisterStubCallbacks@Base 0
  _glapi_Current@Base 0
  _glapi_get_current@Base 0
- (arch=!arm64)_glapi_tls_Current@Base 0
+ _glapi_tls_Current@Base 0
