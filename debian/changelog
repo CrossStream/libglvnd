@@ -1,9 +1,9 @@
-libglvnd (1.3.0-5) UNRELEASED; urgency=medium
+libglvnd (1.3.0-5) unstable; urgency=medium
 
   * control: Add lib{egl,gl,gles,glx}-dev to libglvnd-dev depends, since
     the .so symlinks have moved.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Fri, 20 Dec 2019 21:05:11 +0200
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 20 Dec 2019 21:06:47 +0200
 
 libglvnd (1.3.0-4) unstable; urgency=medium
 
