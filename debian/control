@@ -172,6 +172,7 @@ Package: libgl-dev
 Architecture: any
 Depends:
  libgl1 (= ${binary:Version}),
+ libglx-dev,
  ${misc:Depends},
 Replaces:
  libgl1-mesa-dev (<< 19.3.0~rc6-1),
