@@ -29,6 +29,7 @@ Depends:
  libgl-dev (>= 1.3.0-1),
  libgles-dev (>= 1.3.0-1),
  libglx-dev (>= 1.3.0-1),
+ libopengl-dev (>= 1.3.0-1),
 Breaks:
  libglvnd-core-dev (<< 1.3.0-1),
 Replaces:
