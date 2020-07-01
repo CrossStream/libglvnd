@@ -1,3 +1,19 @@
+libglvnd (0.0.0-0) unstable; urgency=medium
+
+  * WIP:
+    https://launchpad.net/~rzr/+archive/ubuntu/snapshot/+packages#${pack
+    age}
+
+ -- Philippe Coval <rzr@users.sf.net>  Wed, 01 Jul 2020 10:38:07 +0200
+
+libglvnd (0.0.0-0) unstable; urgency=medium
+
+  * wip:
+    https://launchpad.net/~rzr/+archive/ubuntu/snapshot/+packages#${pack
+    age}
+
+ -- Philippe Coval <rzr@users.sf.net>  Wed, 01 Jul 2020 10:38:07 +0200
+
 libglvnd (1.3.1-1) unstable; urgency=medium
 
   * New upstream release.
