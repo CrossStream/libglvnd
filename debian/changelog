@@ -1,3 +1,9 @@
+libglvnd (0.v1.3.2+149+g7705b88-149) unstable; urgency=medium
+
+  * debian: WIP: Release 0.v1.3.2+149+g7705b88-149 (snapshot)
+
+ -- Philippe Coval <rzr@users.sf.net>  Wed, 01 Jul 2020 11:45:10 +0200
+
 libglvnd (0.0.0-0) unstable; urgency=medium
 
   * WIP:
